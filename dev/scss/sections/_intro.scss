@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color:rgb(0, 0, 0);
+  }
+  
+//   #quote{
+//     font-size:24px;
+//     line-height:36px;
+//     margin:50px auto;
+//     width:800px;
+//   }
+  
+  #quote div{
+    -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing:antialiased;
+  }
+
+  #content-container{
+      display: grid;
+      grid-template-columns: 100px 60% auto 100px;
+    //   grid-template-rows: repeat(2fr);
+      grid-template-areas: 
+      ". quote1 . ."
+      ". . quote2 ."
+      ;
+      margin-top: 300px;
+
+      #quote1{
+          grid-area: quote1;
+          height: 100%;
+          width: 100%;
+          text-align: right;
+
+      }
+
+      #quote2{
+        grid-area: quote2;
+        height: 100%;
+        width: 100%;
+        font-size: rem-calc(30px);
+
+      }
+  }
