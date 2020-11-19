@@ -12,12 +12,12 @@ export function introAnimation(){
     numChars = mySplitText.chars.length;
 
 
-for(var i = 0; i < numChars; i++){
-  //random value used as position parameter
-  tl.from(mySplitText.chars[i], 2, {opacity:0}, Math.random() * 2);
-}
+    for(var i = 0; i < numChars; i++){
+      //random value used as position parameter
+      tl.from(mySplitText.chars[i], 2, {opacity:0, duration: 1}, Math.random() * 2);
+    }
 
-return mySplitText
+    return tl
 }
 
 export function secondQuoteAnimation(){
@@ -28,10 +28,10 @@ export function secondQuoteAnimation(){
     numChars = mySplitText2.chars.length;
 
 
-for(var i = 0; i < numChars; i++){
-  //random value used as position parameter
-  tl.from(mySplitText2.chars[i], 2, {opacity:0}, Math.random() * 2);
-}
+    for(var i = 0; i < numChars; i++){
+      //random value used as position parameter
+      tl.from(mySplitText2.chars[i], 2, {opacity:0}, Math.random() * 2);
+    }
 
-return mySplitText2
+    return tl
 }

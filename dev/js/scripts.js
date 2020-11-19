@@ -10,7 +10,7 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MorphSVGPlugin);
 var mainTL = gsap.timeline();
 
 mainTL.add(introAnimation())
- .add(secondQuoteAnimation(), ">4")
+ .add(secondQuoteAnimation(),"-=2")
 
 
 
