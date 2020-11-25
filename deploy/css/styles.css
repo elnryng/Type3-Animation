@@ -396,10 +396,15 @@ body {
     grid-area: quote1;
     height: 100%;
     width: 100%;
-    text-align: right; }
+    text-align: right;
+    letter-spacing: 0.125rem; }
   #content-container #quote2 {
     grid-area: quote2;
     height: 100%;
     width: 100%;
     font-size: 1.875rem;
     padding-top: 100px; }
+    #content-container #quote2 > span {
+      position: relative; }
+      #content-container #quote2 > span #lettero {
+        position: absolute; }

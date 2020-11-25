@@ -30,8 +30,16 @@ export function secondQuoteAnimation(){
 
     for(var i = 0; i < numChars; i++){
       //random value used as position parameter
+      
       tl.from(mySplitText2.chars[i], 2, {opacity:0}, Math.random() * 2);
     }
 
     return tl
+}
+
+export function oAnimation(){
+  var tl = gsap.timeline();
+  tl.from("#o", {alpha: 0, duration: 2})
+
+  return tl
 }

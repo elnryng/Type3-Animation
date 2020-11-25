@@ -46,6 +46,14 @@
 		"oAP": "/dev/content/intro/intro.html",
 		"oF": 0
 		},
+	"/dev/content/middle/ripple.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/middle/ripple.html",
+		"oF": 0
+		},
 	"/dev/content/the-disciple.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -86,6 +94,28 @@
 		"oA": 1,
 		"oAP": "/dev/js/intro/intro-min.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/intro/zoom.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/intro/zoom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/middle/oRipple.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/middle/oRipple-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -327,7 +357,7 @@
 "projectAttributes": {
 	"creationDate": 622561353.46572006,
 	"displayValue": "Type3-Animation",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
 	},
