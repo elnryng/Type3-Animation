@@ -2,7 +2,9 @@ import { introAnimation } from './intro/intro.js';
 import { secondQuoteAnimation } from './intro/intro.js';
 import { oAnimation } from './intro/intro.js';
 import { zoomAnimation } from './intro/zoom.js';
-import { rippleAnimation } from './middle/oRipple.js'
+import { rippleAnimation } from './middle/oRipple.js';
+import { middleAnimation } from './middle/middle.js';
+import { beautyAnimation } from './middle/beauty.js';
 import { gsap } from "gsap";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import { GSDevTools } from "gsap/GSDevTools";
@@ -16,7 +18,9 @@ mainTL.add(introAnimation())
  .add(secondQuoteAnimation(),"-=2")
  .add(oAnimation(),"-=2")
  .add(zoomAnimation(),"+=1")
- .add(rippleAnimation())
+ .add(rippleAnimation(),"-=2")
+ .add(middleAnimation())
+ .add(beautyAnimation())
 
 
 

@@ -1,0 +1,16 @@
+#circles-svg{
+    display: grid;
+    grid-template-columns: 40% auto 40%;
+    grid-template-areas: ". content .";
+    position: absolute;
+    z-index: 500;
+    height: 100vh;
+
+    #circle-group{
+        grid-area: content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

@@ -1,0 +1,12 @@
+#disciple-container{
+
+
+    >div{
+        position: relative;
+
+        .stacking{
+            position: absolute;
+            width: 100%;
+        }
+    }
+}

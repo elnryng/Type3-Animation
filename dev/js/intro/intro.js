@@ -38,8 +38,8 @@ export function secondQuoteAnimation(){
 }
 
 export function oAnimation(){
-  var tl = gsap.timeline();
-  tl.from("#o", {alpha: 0, duration: 2})
-
-  return tl
+  var o = gsap.timeline();
+  o.from("#o", {alpha: 0, duration: 2})
+    
+  return o
 }

@@ -317,6 +317,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  font-family: 'Lato', sans-serif;
+  color: black; }
+
 figure {
   margin: 0;
   padding: 0; }
@@ -379,32 +383,40 @@ textarea {
 /* =============
     Footer
 ============= */
-body {
-  font-family: 'Lato', sans-serif;
-  color: black; }
-
-#quote div {
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased; }
+#disciple-container > div {
+  position: relative; }
+  #disciple-container > div .stacking {
+    position: absolute;
+    width: 100%; }
 
 #content-container {
   display: grid;
-  grid-template-columns: 100px 60% auto 100px;
-  grid-template-areas: ". quote1 . ." ". . quote2 .";
+  grid-template-columns: 10% 50% auto 10%;
+  grid-template-areas: ". quote1 quote1 ." ". . quote2 quote2";
   margin-top: 300px; }
   #content-container #quote1 {
     grid-area: quote1;
-    height: 100%;
     width: 100%;
-    text-align: right;
     letter-spacing: 0.125rem; }
   #content-container #quote2 {
     grid-area: quote2;
     height: 100%;
-    width: 100%;
     font-size: 1.875rem;
     padding-top: 100px; }
     #content-container #quote2 > span {
       position: relative; }
       #content-container #quote2 > span #lettero {
         position: absolute; }
+
+#circles-svg {
+  display: grid;
+  grid-template-columns: 40% auto 40%;
+  grid-template-areas: ". content .";
+  position: absolute;
+  z-index: 500;
+  height: 100vh; }
+  #circles-svg #circle-group {
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    justify-content: center; }

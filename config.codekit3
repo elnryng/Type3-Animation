@@ -46,6 +46,22 @@
 		"oAP": "/dev/content/intro/intro.html",
 		"oF": 0
 		},
+	"/dev/content/middle/beauty.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/middle/beauty.html",
+		"oF": 0
+		},
+	"/dev/content/middle/middle.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/middle/middle.html",
+		"oF": 0
+		},
 	"/dev/content/middle/ripple.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -104,6 +120,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/intro/zoom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/middle/beauty.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/middle/beauty-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/middle/middle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/middle/middle-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -260,6 +298,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_beauty.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_beauty.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_disciple.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_disciple.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_intro.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -269,6 +333,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_intro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_middle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_middle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_ripple.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_ripple.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
