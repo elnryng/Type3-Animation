@@ -38,6 +38,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/design/reflection.png": {
+		"ft": 32768,
+		"iS": 28518,
+		"oA": 0,
+		"oAP": "/design/reflection.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dev/content/intro/intro.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -60,6 +71,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/middle/middle.html",
+		"oF": 0
+		},
+	"/dev/content/middle/mirrored.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/middle/mirrored.html",
+		"oF": 0
+		},
+	"/dev/content/middle/reflection.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/middle/reflection.html",
 		"oF": 0
 		},
 	"/dev/content/middle/ripple.kit": {
@@ -142,6 +169,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/middle/middle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/middle/mirrored.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/middle/mirrored-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -346,6 +384,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_middle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_reflection.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_reflection.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
