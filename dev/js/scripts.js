@@ -6,6 +6,7 @@ import { rippleAnimation } from './middle/oRipple.js';
 import { middleAnimation } from './middle/middle.js';
 import { beautyAnimation } from './middle/beauty.js';
 import { mirroredAnimation } from './middle/mirrored.js';
+import { creditAnimation } from './middle/credit.js';
 import { gsap } from "gsap";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import { GSDevTools } from "gsap/GSDevTools";
@@ -23,6 +24,7 @@ mainTL.add(introAnimation())
  .add(middleAnimation())
  .add(beautyAnimation(),"-=2")
  .add(mirroredAnimation())
+ .add(creditAnimation())
 
 
 

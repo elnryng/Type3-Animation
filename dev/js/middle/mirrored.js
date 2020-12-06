@@ -15,7 +15,13 @@ export function mirroredAnimation(){
                 .to("#dm",{scaleX: -1, duration: 1, ease: "none"},"flip2")
                 .from("#box", {alpha:0},"growth")
                 .to("#box", {scaleY: 1, transformOrigin:"50% 0%"}, "growth")
-                .to("#turbwave",{attr:{"baseFrequency":0.01}, yoyo:true, duration:5});
+                .to("#turbwave",{attr:{"baseFrequency":0.01}, yoyo:true, duration:7})
+                .to("#mirrored", {alpha: 0},"vanish")
+                .to("#box", {alpha: 0},"vanish")
+
+                
+                
+
 
     return mirrored
 }

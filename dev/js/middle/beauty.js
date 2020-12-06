@@ -6,6 +6,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 export function beautyAnimation(){
     const beauty = gsap.timeline();
         beauty.from("#beauty-svg", {y:1000})
+        .to("#beautycontainer", {y:-100})
         .from("#my", {alpha: 0})
                 .from("#own", {alpha: 0})
                 .from("#beauty", {drawSVG: "0%", duration: 2},"draw")

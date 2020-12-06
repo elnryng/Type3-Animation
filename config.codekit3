@@ -65,6 +65,14 @@
 		"oAP": "/dev/content/middle/beauty.html",
 		"oF": 0
 		},
+	"/dev/content/middle/credit.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/middle/credit.html",
+		"oF": 0
+		},
 	"/dev/content/middle/middle.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -158,6 +166,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/middle/beauty-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/middle/credit.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/middle/credit-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
